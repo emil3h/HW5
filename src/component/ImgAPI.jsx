@@ -27,7 +27,7 @@ const ImgAPI = () => {
       <h1> HW5: React and API </h1> 
       <h2> Reload the page to see a new image, with a random title and description </h2>
       {items.data.map((item) => (
-        <ul style="list-style: none;" key={item.id}>
+        <ul key={item.id}>
           <li>
               Title: {item.title} <br />
               Description: {item.description} <br /> 
